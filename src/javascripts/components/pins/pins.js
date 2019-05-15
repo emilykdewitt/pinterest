@@ -3,8 +3,8 @@ import util from '../../helpers/util';
 
 const bindEvents = () => {
   document.getElementById('toBoardsBtn').addEventListener('click', () => {
-    document.getElementById('pins-page').classList.add('hide');
     document.getElementById('boards-page').classList.remove('hide');
+    document.getElementById('pins-page').classList.add('hide');
   });
 };
 
